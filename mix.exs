@@ -43,7 +43,7 @@ defmodule ScrivenerHtml.Mixfile do
   # Type `mix help deps` for more examples and options
   defp deps do
     [
-      {:scrivener, "~> 1.0"},
+      {:scrivener_ecto, git: "https://github.com/drewolson/scrivener_ecto"},
       {:phoenix_html, "~> 2.2"},
       {:phoenix, "~> 1.0", optional: true},
       {:pavlov, github: "sproutapp/pavlov", only: :test},
